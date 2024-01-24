@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: ' #ed9f4c',
         secondary: '#222222',
+        gary: '#2c2c2c',
         accent: 'var(--aw-color-accent)',
         default: 'var(--aw-color-text-default)',
         muted: 'var(--aw-color-text-muted)',

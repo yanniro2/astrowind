@@ -11,6 +11,7 @@ export const headerData = {
       text: 'Blog',
       href: 'blog',
     },
+    { text: 'Contact', href: 'contact' },
     {
       text: 'Media',
       href: 'media',
