@@ -1,0 +1,28 @@
+---
+import { Image } from "astro:assets";
+
+
+
+const { name, headline, image} = Astro.props;
+---
+
+<div class="w-full h-[50vh]  py-5 shadow-xl rounded-lg text-white relative overflow-hidden cursor-pointer hover:scale-105 transition-all hover:shadow-md flex items-center justify-center group border border-primary">
+  <div class="flex items-center justify-center flex-col text-center   relative h-max gap-3 bg-transparent w-full backdrop-blur backdrop-brightness-50 px-[2rem] p-1 z-[50]">
+   
+      <h2 class="z-30 relative text-xl uppercase font-semibold  border-b border-primary text-primary  ">
+        {name}
+    </h2>
+    
+    
+    <h3 class="z-30 relative text-white font-medium bg-transparent w-full backdrop-blur backdrop-brightness-50 px-[2rem] p-1">{headline}</h3>
+  </div>
+
+  <Image
+    src={image}
+    alt={name}
+    width={100}
+    height={100}
+    class="w-full h-full absolute top-0 left-0 right-0 bottom-0 object-cover z-10 brightness-50 transition-all"
+  />
+</div>
+

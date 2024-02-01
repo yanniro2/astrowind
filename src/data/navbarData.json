@@ -1,0 +1,8 @@
+{
+  "navbar": [
+    { "label": "Home", "href": "/", "id": "home" },
+    { "label": "Blog", "href": "/blog", "id": "blog" },
+    { "label": "Media", "href": "/media", "id": "media" },
+    { "label": "Contact Us", "href": "/contactus", "id": "contactus" }
+  ]
+}

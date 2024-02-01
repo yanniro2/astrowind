@@ -1,0 +1,34 @@
+{
+  "loudspeakerFeatures": [
+    {
+      "feature": "ANY SHAPE AND FINISH",
+      "description": "Designer inspired custom loudspeaker grilles are CNC fabricated in virtually any size, shape, material, color or finish.",
+      "icon": "MdFormatShapes"
+    },
+    {
+      "feature": "UNCOMPROMISED SOUND QUALITY",
+      "description": "For uncompromised sound quality and extraordinary look we use rare materials: Hardwoods, natural and artificial stones, aluminum, stainless steel, titanium and carbon fiber.",
+      "icon": "MdAudiotrack"
+    },
+    {
+      "feature": "VIBRATION FREE",
+      "description": "Vibration free speaker enclosures created with our proprietary material MBX105.",
+      "icon": "MdVibration"
+    },
+    {
+      "feature": "HIDDEN SPEAKERS",
+      "description": "We understand that sometimes nothing should be seen. In that case, we make completely hidden speakers.",
+      "icon": "MdVisibilityOff"
+    },
+    {
+      "feature": "PRECISE ELECTRONICS",
+      "description": "We engineer and manufacture amplifiers and signal processors that have no rivals in quality and precision.",
+      "icon": "MdTune"
+    },
+    {
+      "feature": "ENGINEERING SERVICES",
+      "description": "Our engineering Team will do lots of calculations off-site and then travel to your home, yacht, or airplane to make the final calibration and tuning.",
+      "icon": "MdBuild"
+    }
+  ]
+}

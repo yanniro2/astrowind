@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Design",
+    "icon": "MdCreate",
+    "description": "In the Design phase, creative concepts and plans are formulated to outline the visual and functional aspects of the project."
+  },
+  {
+    "id": 2,
+    "name": "Engineer",
+    "icon": "MdBuild",
+    "description": "The Engineer phase involves the technical implementation and detailed planning of the design, translating ideas into a structured blueprint."
+  },
+  {
+    "id": 3,
+    "name": "Manufacture",
+    "icon": "MdBuildCircle",
+    "description": "Manufacturing encompasses the physical production of components and products according to the specifications defined in the engineering phase."
+  },
+  {
+    "id": 4,
+    "name": "Calibrate",
+    "icon": "MdSettings",
+    "description": "The Calibrate phase focuses on fine-tuning and adjusting the system to ensure optimal performance, accuracy, and reliability."
+  }
+]

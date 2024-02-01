@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
+/* @layer utilities {
   .bg-page {
     background-color: var(--aw-color-bg-page);
   }
@@ -18,6 +19,7 @@
   .text-muted {
     color: var(--aw-color-text-muted);
   }
+<<<<<<< HEAD
 }
 
 @layer base {
@@ -55,46 +57,72 @@
 }
 /* #header.scroll > div:last-child {
   @apply py-3;
+=======
+>>>>>>> f716e95 (fix index page)
 } */
 
-#header.expanded nav {
-  position: fixed;
-  top: 70px;
-  left: 0;
-  right: 0;
-  bottom: 70px !important;
-  padding: 0 5px;
+
+
+.link-active {
+    @apply text-primary font-semibold underline;
 }
 
-.dropdown:hover .dropdown-menu {
-  display: block;
+.link {
+    @apply hover:text-primary transition-all;
 }
 
-[astro-icon].icon-light > * {
-  stroke-width: 1.2;
+.btn-1 {
+    @apply border-primary  border px-6 py-3 rounded-xl font-semibold cursor-pointer hover:shadow-lg hover:bg-white hover:text-primary transition-all bg-primary text-white hover:border-white;
 }
 
-[astro-icon].icon-bold > * {
-  stroke-width: 2.4;
+.btn-2 {
+    @apply border-primary text-primary border px-6 py-3 rounded-xl font-semibold cursor-pointer hover:shadow-lg hover:bg-primary hover:text-white transition-all;
 }
 
-[data-aw-toggle-menu] path {
-  @apply transition;
-}
-[data-aw-toggle-menu].expanded g > path:first-child {
-  @apply -rotate-45 translate-y-[15px] translate-x-[-3px];
+.btn-3 {
+    @apply border-white text-white border px-6 py-3 rounded-xl font-semibold cursor-pointer hover:shadow-lg  transition-all uppercase hover:text-primary hover:bg-white;
 }
 
-[data-aw-toggle-menu].expanded g > path:last-child {
-  @apply rotate-45 translate-y-[-8px] translate-x-[14px];
+.h2 {
+    @apply text-xl font-bold 2xl:text-[2rem] ;
 }
 
-/* To deprecated */
-
-.dd *:first-child {
-  margin-top: 0;
+.h2-default {
+    @apply text-xl font-bold  ;
 }
 
+<<<<<<< HEAD
 .aw-link-active {
   @apply font-bold underline;
 }
+=======
+.h3 {
+    @apply text-2xl font-medium uppercase font-poppins text-primary;
+}
+.h3-default {
+     @apply text-2xl font-medium uppercase font-poppins  ;
+}
+
+.h1 {
+    @apply text-4xl font-semibold  text-center;
+}
+.h1-default {
+    @apply text-4xl font-black  ;
+}
+
+.icons {
+    @apply text-4xl text-white bg-primary rounded-full w-[4rem] h-[4rem] p-4 group-hover:text-primary group-hover:bg-white;
+}
+
+.icons-1 {
+    @apply text-xl  text-white bg-primary rounded-full w-[2rem] h-[2rem] p-1 group-hover:text-primary group-hover:bg-white flex items-center justify-center;
+}
+
+.border-omit:last-child {
+    border: none;
+}
+
+.text {
+    @apply 2xl:text-[2rem] text-gray-600;
+}
+>>>>>>> f716e95 (fix index page)

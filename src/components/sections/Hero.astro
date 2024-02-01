@@ -1,0 +1,32 @@
+---
+import { Image } from "astro:assets";
+
+---
+
+<section class="w-screen h-[70vh] relative pt-[10rem]">
+  <Image
+    src="/assets/img/home/hero.jpg"
+    width={1000}
+    height={800}
+    alt="hero banner"
+    class="absolute top-0 left-0 right-0 w-full h-full object-cover z-[1] brightness-50"
+  />
+  <div
+    class="container mx-auto z-[10] relative h-full flex items-center justify-center">
+    <div
+      class="z-[20] relative text-white flex flex-col items-center justify-center gap-3 -translate-y-1/4">
+      <h1
+        class="z-[10] text-[2rem] md:text-[3rem] lg:text-[4rem] font-bold text-center tracking-normal leading-none drop-shadow md:w-full w-2/3"  >
+        Elevate Your Audio Experience with California Audio Technology
+      </h1>
+      <p class="z-[50] text-center w-3/4 text-gray-400 2xl:text-[3rem]  2xl:w-full">
+        <span class="font-semibold text-white">Founded in 1990</span>, California Audio
+        Technology is dedicated to achieving the absolute pinnacle in audio
+        quality. Our mission is to provide unparalleled sound experiences in
+        homes, yachts, recording studios, and beyond.
+      </p>
+
+    
+    </div>
+  </div>
+</section>

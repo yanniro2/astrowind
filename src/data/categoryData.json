@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Outdoor Venues",
+      "headline": "Elevate Your Sound Experience in Outdoor Venues",
+      "image": "/assets/img/home/gallery/img-1.jpg",
+      "link": "https://example.com/outdoor-venues"
+    },
+    {
+      "id": 2,
+      "name": "Mega Yachts",
+      "headline": "Immerse Yourself in Luxury Sound on Mega Yachts",
+      "image": "/assets/img/home/gallery/img-2.jpg",
+      "link": "https://example.com/mega-yachts"
+    },
+    {
+      "id": 3,
+      "name": "Home Theaters",
+      "headline": "Transform Your Home Entertainment with State-of-the-Art Theaters",
+      "image": "/assets/img/home/gallery/img-3.jpg",
+      "link": "https://example.com/home-theaters"
+    },
+    {
+      "id": 4,
+      "name": "Media Rooms",
+      "headline": "Create Ultimate Entertainment Spaces with High-End Media Rooms",
+      "image": "/assets/img/home/gallery/img-4.jpg",
+      "link": "https://example.com/media-rooms"
+    },
+    {
+      "id": 5,
+      "name": "Two Channel",
+      "headline": "Experience Pure Audio Bliss with Two-Channel Systems",
+      "image": "/assets/img/home/gallery/img-5.jpg",
+      "link": "https://example.com/two-channel"
+    },
+    {
+      "id": 6,
+      "name": "Studios",
+      "headline": "Craft Your Masterpieces in Studios with Unparalleled Sound Quality",
+      "image": "/assets/img/home/gallery/img-6.jpg",
+      "link": "https://example.com/studios"
+    }
+  ]
+}
