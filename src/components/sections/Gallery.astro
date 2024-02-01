@@ -1,0 +1,27 @@
+---
+import data from "../../data/categoryData.json";
+import GalleryCard from "../../components/ui/GalleryCard.astro";
+---
+
+<astro>
+  {
+    () => {
+      const categories = data.categories;
+
+      return (
+        <div class="w-screen  md:h-full bg-white p-5">
+          <div class="container mx-auto  grid-rows-2  gap-5 h-full w-full grid  md:grid-cols-2 ">
+            {categories.map((category) => (
+              <GalleryCard
+                name={category.name}
+                headline={category.headline}
+                image={category.image}
+                link={category.link}
+              />
+            ))}
+          </div>
+        </div>
+      );
+    }
+  }
+</astro>

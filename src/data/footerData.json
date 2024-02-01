@@ -1,0 +1,37 @@
+{
+  "footer": {
+    "contactInformation": {
+      "address": "123 Sound Street, Audio City",
+      "email": "info@cataudio.com",
+      "phone": "+1 (555) 987-6543"
+    },
+    "services": {
+      "audioSystems": "High-End Audio Systems",
+      "studioDesign": "Studio Design & Installation",
+      "customIntegration": "Custom Integration",
+      "calibrationServices": "Audio Calibration Services"
+    },
+    "socialMedia": {
+      "facebook": {
+        "url": "https://www.facebook.com/CaliforniaAudioTechnology",
+        "icon": "FaFacebook"
+      },
+      "twitter": {
+        "url": "https://twitter.com/CAT_AudioTech",
+        "icon": "FaTwitter"
+      },
+      "instagram": {
+        "url": "https://www.instagram.com/californiaaudiotech",
+        "icon": "FaInstagram"
+      },
+      "linkedin": {
+        "url": "https://www.linkedin.com/company/california-audio-technology",
+        "icon": "FaLinkedin"
+      }
+    },
+    "newsletter": {
+      "label": "Subscribe to our Audio Updates",
+      "emailPlaceholder": "Your Email Address"
+    }
+  }
+}

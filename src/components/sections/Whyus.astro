@@ -1,0 +1,33 @@
+---
+import { Image } from "astro:assets";
+---
+
+<section class="w-screen h-[75vh] flex items-center justify-center relative">
+  <Image
+    src="/assets/img/home/whyus.jpg"
+    width={500}
+    height={500}
+    class="absolute w-full h-full top-0 left-0 right-0 bottom-0 object-cover"
+    alt="why us img"
+  />
+  <div class="w-full flex flex-col h-full relative">
+    <div
+      class="md:w-1/2 flex flex-col h-full p-[5%] backdrop-blur backdrop-brightness-50 justify-center gap-[2rem]">
+      <div class="flex flex-col gap-3">
+        <h1 class="text-white text-4xl font-poppins font-semibold">WHY US?</h1>
+        <div class="border-b border-primary w-[6rem] border-2"></div>
+      </div>
+
+      <h3 class="h2 uppercase text-white">
+        performance, robustness, flexibility, customization
+      </h3>
+
+      <p class="text-gray-50 w-1/2">
+        Designer inspired custom loudspeaker grilles are CNC fabricated in
+        virtually any size, shape, material, color or finish.
+      </p>
+      
+    </div>
+  </div>
+</section>
+
